@@ -1,8 +1,13 @@
 import java.util.Random;
+import java.util.Scanner;
 public class HeadTail{
     public static void main(String[] args) {
         int count=0;
         int count2=0;
+        System.out.printf("who are you?\n");
+        Scanner scan = new Scanner(System.in);
+        String str = scan.next();
+        System.out.println("Hello. "+str+"!\n");
         System.out.printf("Tossing a coin...\n");
         for(int i=1;i<4;i++){
         Random rand = new Random();
