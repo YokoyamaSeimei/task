@@ -16,5 +16,12 @@ public class HeadTail{
         }
         }
         System.out.printf("Heads: %d , Tails: %d\n",count,count2);
+        if(count>count2)
+        {
+            System.out.printf("You won!\n");
+        }
+        else{
+            System.out.printf("You lose!\n");
+        }
     }
 }
